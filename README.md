@@ -9,7 +9,7 @@
   <h2 align="center">GitHub Username Checker</h3>
 
   <p align="center">
-    Scrapes users from a discord server to promote/mass dm
+    Uses requests to check if a username is GitHub available.
     <br />
     <br />
     <a href="https://github.com/kiIogram/GitHub-Username-Checker/issues">Report Bug</a>
