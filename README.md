@@ -1,14 +1,6 @@
 <div id="top"></div>
-<p align="center">
-  <img src="https://img.shields.io/github/contributors/kiIogram/GitHub-Username-Checker.svg?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/forks/kiIogram/GitHub-Username-Checker.svg?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/stars/kiIogram/GitHub-Username-Checker.svg?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/issues/kiIogram/GitHub-Username-Checker.svg?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/license/kiIogram/GitHub-Username-Checker.svg?style=for-the-badge"/>
-</p>
-  
----------------------------------------
-  
+---------------------------------------  
+
 <br/>
 <div align="center">
   <a href="https://github.com/kiIogram/GitHub-Username-Checker">
