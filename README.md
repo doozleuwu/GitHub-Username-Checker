@@ -9,7 +9,7 @@
   <h2 align="center">GitHub Username Checker</h3>
 
   <p align="center">
-    Uses requests to check if a username is GitHub available.
+    Uses requests to check if a list of usernames are available on GitHub.
     <br />
     <br />
     <a href="https://github.com/kiIogram/GitHub-Username-Checker/issues">Report Bug</a>
@@ -21,12 +21,9 @@
 ---------------------------------------
 
 ### Features
-* Asynchronous
-* Easy to use
+* Fast
 * Free
-* Auto scrapes
-* Multiline message support
+* Proxies Supported 
+* Removes Duplicate Usernames
 
 ---------------------------------------
-
-https://github.com/kiIogram/GitHub-Username-Checker
