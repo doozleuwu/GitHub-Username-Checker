@@ -24,7 +24,7 @@ def filter_names(names: list):
         output.append(name) 
     return output 
 
-usernames = filter_names(usernames) # filter usernames, happens before the whole program starts
+usernames = filter_names(usernames) 
 
 class github:
     def check(username, proxy, proxytype):
