@@ -23,7 +23,8 @@
 ### Features
 * Fast
 * Free
-* Proxies Supported 
+* Custom Delay
+* Proxies/Proxyless Supported 
 * Removes Duplicate Usernames
 
 ---------------------------------------
