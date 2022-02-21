@@ -115,7 +115,7 @@ def proxytime():
 
 if __name__ == '__main__':
     with open ("data/available.txt", "w") as file:
-        file.write('') # Clears file
+        file.write('') 
     os.system('cls')
     proxytime()
             
