@@ -16,13 +16,13 @@ checked_ = 0
 checked = []
 proxytype = None
 
-def filter_names(names: list): # filter usernames, names: list is 
-    output = [] # output list, giving it a fresh start
-    for name in names: # for each name
-        if name in output: #if name is in output
-            continue #continue
-        output.append(name) #append name to output
-    return output #returns the output
+def filter_names(names: list): 
+    output = [] 
+    for name in names:
+        if name in output: 
+            continue 
+        output.append(name) 
+    return output 
 
 usernames = filter_names(usernames) # filter usernames, happens before the whole program starts
 
@@ -31,12 +31,9 @@ class github:
         global checked_, proxies, checked
         if username in checked:
             return print(Fore.RED + "[Already Checked]" + Fore.RESET + " | " + username + " | " + proxy)
-
         proxies_ = {f'{proxytype}': f'{proxytype}://' + proxy}
-
         r = requests.get(f'https://github.com/{username}', proxies=proxies_)
         time.sleep(delay)
-
         if r.status_code == 200:
             print(Fore.RED + "[Username Taken]" + Fore.RESET + " | " + username + " | " + proxy)
         elif r.status_code == 404:
@@ -54,9 +51,7 @@ class github:
         global checked_
         if username in checked:
             return print(Fore.RED + "[Already Checked]" + Fore.RESET + " | " + username)
-
         r = requests.get(f'https://github.com/{username}')
-
         if r.status_code == 200:
             print(Fore.RED + "[Username Taken]" + Fore.RESET + " | " + username)
         elif r.status_code == 404:
